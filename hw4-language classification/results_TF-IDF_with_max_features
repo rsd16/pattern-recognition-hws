@@ -1,0 +1,19 @@
+	Random Forest	XGBoost	Decision Tree	AdaBoost	SVM	MultinomialNB
+max_features=250, analyzer=word, ngram_range=(1, 1)	93.65	84.13	79.37	65.08	96.83	100.00
+max_features=250, analyzer=word, ngram_range=(2, 2)	80.95	63.49	68.25	61.90	73.02	79.37
+max_features=250, analyzer=word, ngram_range=(3, 3)	57.14	42.86	55.56	55.56	50.79	57.14
+max_features=250, analyzer=char, ngram_range=(1, 1)	100.00	93.65	76.19	79.37	98.41	63.49
+max_features=250, analyzer=char, ngram_range=(2, 2)	98.41	93.65	77.78	63.49	98.41	96.83
+max_features=250, analyzer=char, ngram_range=(3, 3)	98.41	96.83	85.71	79.37	100.00	100.00
+max_features=500, analyzer=word, ngram_range=(1, 1)	93.65	93.65	87.30	84.13	100.00	100.00
+max_features=500, analyzer=word, ngram_range=(2, 2)	74.60	58.73	61.90	66.67	73.02	77.78
+max_features=500, analyzer=word, ngram_range=(3, 3)	57.14	50.79	57.14	55.56	57.14	57.14
+max_features=500, analyzer=char, ngram_range=(1, 1)	93.65	90.48	80.95	90.48	92.06	63.49
+max_features=500, analyzer=char, ngram_range=(2, 2)	98.41	96.83	74.60	63.49	98.41	98.41
+max_features=500, analyzer=char, ngram_range=(3, 3)	96.83	90.48	85.71	79.37	98.41	98.41
+max_features=750, analyzer=word, ngram_range=(1, 1)	92.06	92.06	77.78	80.95	96.83	98.41
+max_features=750, analyzer=word, ngram_range=(2, 2)	68.25	68.25	55.56	61.90	73.02	80.95
+max_features=750, analyzer=word, ngram_range=(3, 3)	71.43	55.56	44.44	58.73	46.03	68.25
+max_features=750, analyzer=char, ngram_range=(1, 1)	95.24	90.48	82.54	61.90	93.65	66.67
+max_features=750, analyzer=char, ngram_range=(2, 2)	98.41	93.65	82.54	84.13	98.41	96.83
+max_features=750, analyzer=char, ngram_range=(3, 3)	95.24	93.65	82.54	46.03	100.00	98.41

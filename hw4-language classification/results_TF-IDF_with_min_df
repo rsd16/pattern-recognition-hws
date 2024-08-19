@@ -1,0 +1,19 @@
+	Random Forest	XGBoost	Decision Tree	AdaBoost	SVM	MultinomialNB
+min_df=0.1, analyzer=word, ngram_range=(1, 1)	90.48	82.54	74.60	95.24	95.24	88.89
+min_df=0.1, analyzer=word, ngram_range=(2, 2)	42.86	50.79	42.86	42.86	50.79	52.38
+min_df=0.1, analyzer=word, ngram_range=(3, 3)	38.10	38.10	38.10	38.10	38.10	30.16
+min_df=0.1, analyzer=char, ngram_range=(1, 1)	88.89	90.48	82.54	68.25	87.30	61.90
+min_df=0.1, analyzer=char, ngram_range=(2, 2)	100.00	95.24	74.60	74.60	100.00	98.41
+min_df=0.1, analyzer=char, ngram_range=(3, 3)	96.83	92.06	77.78	66.67	98.41	98.41
+min_df=0.05, analyzer=word, ngram_range=(1, 1)	90.48	85.71	82.54	63.49	90.48	98.41
+min_df=0.05, analyzer=word, ngram_range=(2, 2)	46.03	46.03	46.03	46.03	46.03	42.86
+min_df=0.05, analyzer=word, ngram_range=(3, 3)	39.68	39.68	39.68	39.68	39.68	38.10
+min_df=0.05, analyzer=char, ngram_range=(1, 1)	96.83	92.06	84.13	95.24	93.65	61.90
+min_df=0.05, analyzer=char, ngram_range=(2, 2)	98.41	98.41	88.89	79.37	98.41	98.41
+min_df=0.05, analyzer=char, ngram_range=(3, 3)	98.41	90.48	73.02	74.60	98.41	98.41
+min_df=0.075, analyzer=word, ngram_range=(1, 1)	87.30	87.30	76.19	85.71	92.06	93.65
+min_df=0.075, analyzer=word, ngram_range=(2, 2)	46.03	44.44	46.03	44.44	46.03	46.03
+min_df=0.075, analyzer=word, ngram_range=(3, 3)	34.92	34.92	34.92	34.92	34.92	30.16
+min_df=0.075, analyzer=char, ngram_range=(1, 1)	93.65	92.06	87.30	71.43	95.24	57.14
+min_df=0.075, analyzer=char, ngram_range=(2, 2)	98.41	96.83	73.02	65.08	98.41	96.83
+min_df=0.075, analyzer=char, ngram_range=(3, 3)	96.83	96.83	84.13	71.43	100.00	100.00
